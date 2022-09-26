@@ -136,13 +136,13 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num)
+  return Math.round(num)
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil(num)
+  return Math.ceil(num)
 }
 
 function numeroRandom() {
@@ -187,8 +187,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  let hola= "Hola "
-  return (hola+nombre)
+  return ('Hola '+nombre+"!")
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
